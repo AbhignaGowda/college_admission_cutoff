@@ -20,8 +20,11 @@ export default function AdminUpload() {
       complete: async results => {
         const rows = results.data.filter((r: any) => r.college_name)
         const { error } = await supabase
-          .from('colleges')
-          .insert(rows, { returning: 'minimal' })
+        .from('colleges')
+        .insert(rows) // removed { returning: 'minimal' }
+      
+
+      
         setResult(error ? `❌ Upload failed: ${error.message}` : '✅ Upload successful!')
         setUploading(false)
       },

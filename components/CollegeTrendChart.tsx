@@ -11,8 +11,26 @@ import {
   CartesianGrid,
 } from 'recharts'
 
-export function CollegeTrendChart({ exam, category, college, course }) {
-  const [trend, setTrend] = useState([])
+// Define the prop types
+type CollegeTrendChartProps = {
+  exam: string
+  category: string
+  college: string
+  course: string
+}
+
+type TrendData = {
+  year: number
+  cutoff_rank: number
+}
+
+export function CollegeTrendChart({
+  exam,
+  category,
+  college,
+  course,
+}: CollegeTrendChartProps) {
+  const [trend, setTrend] = useState<TrendData[]>([])
 
   useEffect(() => {
     async function fetchTrend() {
@@ -24,7 +42,8 @@ export function CollegeTrendChart({ exam, category, college, course }) {
         .eq('college_name', college)
         .eq('course', course)
         .order('year')
-      setTrend(data || [])
+
+      setTrend((data as TrendData[]) || [])
     }
     fetchTrend()
   }, [exam, category, college, course])
