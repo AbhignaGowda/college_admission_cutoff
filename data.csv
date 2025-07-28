@@ -1,0 +1,42 @@
+college_name,exam,course,category,year,cutoff_rank,location
+AFMC,NEET,MBBS,General,2023,152,Pune
+AFMC,NEET,MBBS,OBC,2023,193,Pune
+AFMC,NEET,MBBS,SC,2023,278,Pune
+AFMC,NEET,MBBS,General,2022,141,Pune
+AFMC,NEET,MBBS,OBC,2022,185,Pune
+AFMC,NEET,MBBS,SC,2022,266,Pune
+Bharati Vidyapeeth Medical College,NEET,MBBS,General,2023,3745,Pune
+Bharati Vidyapeeth Medical College,NEET,MBBS,OBC,2023,4180,Pune
+Bharati Vidyapeeth Medical College,NEET,MBBS,SC,2023,9356,Pune
+Bharati Vidyapeeth Medical College,NEET,MBBS,General,2022,3621,Pune
+DY Patil Medical College,NEET,MBBS,General,2023,4991,Pune
+DY Patil Medical College,NEET,MBBS,OBC,2023,5210,Pune
+DY Patil Medical College,NEET,MBBS,SC,2023,10023,Pune
+DY Patil Medical College,NEET,MBBS,General,2022,4887,Pune
+MIT World Peace University,JEE,B.Tech CSE,General,2023,46200,Pune
+MIT World Peace University,JEE,B.Tech CSE,OBC,2023,50120,Pune
+MIT World Peace University,JEE,B.Tech AI & DS,General,2023,48760,Pune
+MIT World Peace University,JEE,B.Tech CSE,General,2022,45010,Pune
+Vishwakarma Institute of Technology,JEE,B.Tech CSE,General,2023,38500,Pune
+Vishwakarma Institute of Technology,JEE,B.Tech CSE,OBC,2023,40800,Pune
+Vishwakarma Institute of Technology,JEE,B.Tech ECE,General,2023,40300,Pune
+Vishwakarma Institute of Technology,JEE,B.Tech IT,OBC,2023,41600,Pune
+Vishwakarma Institute of Technology,JEE,B.Tech CSE,General,2022,36750,Pune
+Vishwakarma Institute of Information Technology,JEE,B.Tech IT,General,2023,39500,Pune
+Vishwakarma Institute of Information Technology,JEE,B.Tech IT,OBC,2023,41800,Pune
+College of Engineering Pune (COEP),JEE,B.Tech CSE,General,2023,1425,Pune
+COEP,JEE,B.Tech Electrical,OBC,2023,2950,Pune
+COEP,JEE,B.Tech Mechanical,General,2023,3280,Pune
+COEP,JEE,B.Tech Civil,SC,2023,6840,Pune
+COEP,JEE,B.Tech CSE,General,2022,1342,Pune
+COEP,JEE,B.Tech Electrical,General,2022,3010,Pune
+COEP,JEE,B.Tech Mechanical,OBC,2022,3570,Pune
+Symbiosis Institute of Technology,JEE,B.Tech CSE,General,2023,52700,Pune
+Symbiosis Institute of Technology,JEE,B.Tech AI & DS,General,2023,54800,Pune
+Symbiosis Institute of Technology,JEE,B.Tech ECE,OBC,2023,55800,Pune
+Symbiosis Institute of Technology,JEE,B.Tech CSE,General,2022,50900,Pune
+PCCOE,JEE,B.Tech CSE,General,2023,41900,Pune
+PCCOE,JEE,B.Tech IT,OBC,2023,43900,Pune
+PCCOE,JEE,B.Tech ECE,General,2023,44600,Pune
+AISSMS College of Engineering,JEE,B.Tech CSE,General,2023,45500,Pune
+AISSMS College of Engineering,JEE,B.Tech Mechanical,SC,2023,52000,Pune
